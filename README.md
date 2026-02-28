@@ -7,15 +7,17 @@ The vit_pytorch module implements Patch Embedding, multi-head self-attention, an
 The LDPC module(LDPC.py) is used for positive sample construction in experiments. 
 
 ## 1.Structure
-├─ vit_pytorch.py 
-├─ main_CTGA.py 
-├─ detection.py  
-├─ utils.py 
+```
+├─ vit_pytorch.py
+├─ main_CTGA.py
+├─ detection.py
+├─ utils.py
 ├─ moco/
-│ ├─ init.py 
-│ ├─ builder.py 
-│ └─ loader.py
-└─ LDPC.py 
+│  ├─ __init__.py
+│  ├─ builder.py
+│  └─ loader.py
+└─ LDPC.py
+```
 
 ## 2. Environment
 - Python 3.9
