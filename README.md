@@ -4,7 +4,7 @@ The proposed method combines contrastive learning with a Vision Transformer (ViT
 The main training module (main_CTGA.py) is built on a MoCo-based ViT framework. Unsupervised contrastive learning is performed to extract latent feature representations from multi-element geochemical data. No anomaly labels are required during training. The embedding space structure is optimized through contrastive loss.
 The detection module (detection.py) uses the pretrained encoder to extract feature representations of samples. Anomaly scores are generated through feature distance computation. Model performance is evaluated using metrics such as ROC-AUC.
 The vit_pytorch module implements Patch Embedding, multi-head self-attention, and Transformer encoder blocks. Dependencies among geochemical elements are modeled through these components. The utils module provides data preprocessing and evaluation metric computation.
-The LDPC module is used for positive sample construction in experiments. 
+The LDPC module(LDPC.py) is used for positive sample construction in experiments. 
 
 ## 1.Structure
 ├─ vit_pytorch.py 
